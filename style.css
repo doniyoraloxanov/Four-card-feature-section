@@ -1,0 +1,128 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            MAIN COLOR: #087f5b
+            GREY COLOR: #343a40
+            HOVER COLOR: #099268
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+/**************************/
+/* HEADERSECTION */
+/**************************/
+
+.container {
+  width: 1444px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: rgb(239, 231, 231);
+
+  position: relative;
+
+  /* background-color: red; */
+}
+
+.header {
+  /* background-color: antiquewhite; */
+  text-align: center;
+  width: 40%;
+  padding: 24px 32px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.feature--heading-primary {
+  color: #555;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.feature--heading-secondary {
+  color: #555;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.feature-description {
+  color: #555;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 230px;
+}
+
+/**************************/
+/* FEATURE SECTION */
+/**************************/
+
+.feature-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.feature-card-heading {
+  margin-bottom: 16px;
+}
+.feature-card-content {
+  line-height: 1.5;
+}
+
+.feature-card-one,
+.feature-card-two,
+.feature-card-three,
+.feature-card-four {
+  width: 380px;
+  padding: 32px;
+  box-shadow: 0 28px 38px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 9px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.feature-card-one {
+  margin-left: 130px;
+  border-top: 7px solid hsl(180, 62%, 55%);
+}
+
+.feature-card-two {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  border-top: 7px solid hsl(0, 78%, 62%);
+}
+.feature-card-three {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  position: absolute;
+  top: 64%;
+  left: 38%;
+  border-top: 7px solid hsl(34, 97%, 64%);
+}
+.feature-card-four {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-right: 95px;
+  border-top: 7px solid;
+  border-top: 7px solid hsl(212, 86%, 64%);
+}
+
+.feature-icon {
+  margin-top: 40px;
+  margin-left: 220px;
+}
