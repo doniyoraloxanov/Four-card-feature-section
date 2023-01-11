@@ -35,14 +35,10 @@ body {
   margin: 0 auto;
   height: 100vh;
   background-color: rgb(239, 231, 231);
-
   position: relative;
-
-  /* background-color: red; */
 }
 
 .header {
-  /* background-color: antiquewhite; */
   text-align: center;
   width: 40%;
   padding: 24px 32px;
@@ -101,24 +97,23 @@ body {
 }
 
 .feature-card-two {
-  position: absolute;
   top: 32%;
   left: 38%;
+  position: absolute;
   border-top: 7px solid hsl(0, 78%, 62%);
 }
 .feature-card-three {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  position: absolute;
   top: 64%;
   left: 38%;
+  position: absolute;
   border-top: 7px solid hsl(34, 97%, 64%);
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 .feature-card-four {
   grid-column: 3/4;
   grid-row: 1/2;
   margin-right: 95px;
-  border-top: 7px solid;
   border-top: 7px solid hsl(212, 86%, 64%);
 }
 
